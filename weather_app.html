@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data and title data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App project</title>
+    <link rel="stylesheet" href="weather_style.css">
+    <script src="weather.script.js"></script>
+</head>
+<body>
+    <!-- Add HTML content here -->
+    <!--class of card for the background + search functions-->
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false">
+
+        <button><img src="https://i.ibb.co/zsRHKy9/search.png" alt="search"></button>
+    </div>
+    <div class="error">
+        <p>Invalid city name</p>
+        <p>Please try again</p>
+    </div>
+    <!--weather type pics + temp and city-->
+    <div class="weather">
+        <img src ="https://i.ibb.co/nfbNbYj/rain-edit.png" alt="rain-icon">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Bristol</h2>
+        <div class="details">
+            <div class="collums">
+                <img src="https://i.ibb.co/GHXdJVq/humidity-black.png" alt="humidity-black">
+                <div>
+                    <!--Humidity class + wind speed-->
+                    <p class="humidity">60%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>   
+            <div class="collums">
+                <img src="https://i.ibb.co/xH13yJm/wind.png" alt="wind">
+                <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--closing off-->
+</body>
+</html>
